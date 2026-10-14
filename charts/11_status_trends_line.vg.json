@@ -1,0 +1,140 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "data/status_history.csv"
+  },
+  "transform": [
+    {
+      "filter": "indexof(['Near threatened', 'Vulnerable', 'Endangered', 'Critically endangered'], datum.status) >= 0"
+    }
+  ],
+  "width": "container",
+  "height": 340,
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
+  "mark": {
+    "type": "line",
+    "strokeWidth": 3,
+    "point": {
+      "filled": true,
+      "size": 80
+    }
+  },
+  "encoding": {
+    "x": {
+      "field": "year",
+      "type": "quantitative",
+      "title": "Assessment year",
+      "scale": {
+        "domain": [
+          1990,
+          2015
+        ],
+        "nice": false
+      },
+      "axis": {
+        "values": [
+          1990,
+          2000,
+          2010,
+          2015
+        ],
+        "format": "d",
+        "labelAngle": 0
+      }
+    },
+    "y": {
+      "field": "count",
+      "type": "quantitative",
+      "title": "Species-level entries",
+      "scale": {
+        "domain": [
+          0,
+          50
+        ]
+      },
+      "axis": {
+        "tickCount": 6
+      }
+    },
+    "color": {
+      "field": "status",
+      "type": "nominal",
+      "title": "Historical classification",
+      "scale": {
+        "domain": [
+          "Near threatened",
+          "Vulnerable",
+          "Endangered",
+          "Critically endangered"
+        ],
+        "range": [
+          "#BA943A",
+          "#D58B45",
+          "#C56750",
+          "#8E5685"
+        ]
+      },
+      "legend": {
+        "orient": "bottom",
+        "columns": 2,
+        "labelLimit": 160,
+        "title": null
+      }
+    },
+    "tooltip": [
+      {
+        "field": "year",
+        "type": "quantitative",
+        "title": "Year",
+        "format": "d"
+      },
+      {
+        "field": "status",
+        "type": "nominal",
+        "title": "Category"
+      },
+      {
+        "field": "count",
+        "type": "quantitative",
+        "title": "Species-level entries"
+      }
+    ]
+  },
+  "config": {
+    "background": null,
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelColor": "#253745",
+      "titleColor": "#253745",
+      "gridColor": "#E5EAF0",
+      "tickColor": "#B0BFC7",
+      "labelFont": "Open Sans",
+      "titleFont": "Open Sans",
+      "labelFontSize": 13,
+      "titleFontSize": 15,
+      "labelPadding": 7,
+      "titlePadding": 10
+    },
+    "legend": {
+      "labelColor": "#253745",
+      "titleColor": "#253745",
+      "labelFont": "Open Sans",
+      "titleFont": "Open Sans",
+      "labelFontSize": 13,
+      "titleFontSize": 14,
+      "labelLimit": 185,
+      "titleLimit": 200
+    },
+    "title": {
+      "font": "Open Sans",
+      "color": "#253745",
+      "fontSize": 17
+    },
+    "font": "Open Sans"
+  }
+}

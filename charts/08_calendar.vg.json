@@ -1,0 +1,155 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 300,
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
+  "data": {
+    "url": "data/daily_observations.csv"
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "rect",
+        "color": "#E9EDF1",
+        "stroke": "#FFFFFF",
+        "strokeWidth": 2,
+        "cornerRadius": 3
+      },
+      "encoding": {
+        "x": {
+          "field": "weekday",
+          "type": "ordinal",
+          "sort": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "title": null,
+          "axis": {
+            "labelAngle": 0,
+            "labelExpr": "slice(datum.label,0,3)"
+          }
+        },
+        "y": {
+          "field": "week",
+          "type": "ordinal",
+          "title": "Week of month",
+          "sort": "ascending"
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.in_month == 1"
+        }
+      ],
+      "mark": {
+        "type": "rect",
+        "stroke": "#FFFFFF",
+        "strokeWidth": 2,
+        "cornerRadius": 3
+      },
+      "encoding": {
+        "x": {
+          "field": "weekday",
+          "type": "ordinal",
+          "sort": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "title": null,
+          "axis": {
+            "labelAngle": 0,
+            "labelExpr": "slice(datum.label,0,3)"
+          }
+        },
+        "y": {
+          "field": "week",
+          "type": "ordinal",
+          "title": "Week of month",
+          "sort": "ascending"
+        },
+        "color": {
+          "field": "records",
+          "type": "quantitative",
+          "title": "Records per day",
+          "scale": {
+            "range": [
+              "#D4EAE6",
+              "#9CD0C5",
+              "#4D9EAA",
+              "#235975"
+            ]
+          },
+          "legend": {
+            "orient": "bottom",
+            "direction": "horizontal",
+            "format": ",",
+            "gradientLength": 165
+          }
+        },
+        "tooltip": [
+          {
+            "field": "date",
+            "type": "nominal",
+            "title": "Date"
+          },
+          {
+            "field": "records",
+            "type": "quantitative",
+            "format": ",",
+            "title": "Records"
+          }
+        ]
+      }
+    }
+  ],
+  "config": {
+    "background": null,
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelColor": "#253745",
+      "titleColor": "#253745",
+      "gridColor": "#E5EAF0",
+      "tickColor": "#B0BFC7",
+      "labelFont": "Open Sans",
+      "titleFont": "Open Sans",
+      "labelFontSize": 13,
+      "titleFontSize": 15,
+      "labelPadding": 7,
+      "titlePadding": 10
+    },
+    "legend": {
+      "labelColor": "#253745",
+      "titleColor": "#253745",
+      "labelFont": "Open Sans",
+      "titleFont": "Open Sans",
+      "labelFontSize": 13,
+      "titleFontSize": 14,
+      "labelLimit": 185,
+      "titleLimit": 200
+    },
+    "title": {
+      "font": "Open Sans",
+      "color": "#253745",
+      "fontSize": 17
+    },
+    "font": "Open Sans"
+  },
+  "description": "April 2025 daily observation counts in a calendar heatmap. Grey marks are outside April; date and count appear on hover only."
+}

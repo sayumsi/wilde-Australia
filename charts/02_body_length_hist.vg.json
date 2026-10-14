@@ -1,0 +1,108 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Histogram showing the distribution of bird body lengths in the 2015 bird reference dataset, with 20-cm-wide bins.",
+  "width": "container",
+  "height": 340,
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
+  "data": {
+    "url": "data/body_size.csv"
+  },
+  "mark": {
+    "type": "bar",
+    "color": "#3A96A1",
+    "stroke": "#FFFFFF",
+    "strokeWidth": 1,
+    "tooltip": true
+  },
+  "encoding": {
+    "x": {
+      "field": "length_cm",
+      "type": "quantitative",
+      "bin": {
+        "step": 20,
+        "extent": [
+          0,
+          240
+        ]
+      },
+      "title": "Body length (cm; 20 cm intervals)",
+      "scale": {
+        "domain": [
+          0,
+          240
+        ]
+      },
+      "axis": {
+        "format": "d",
+        "tickCount": 7,
+        "labelAngle": 0
+      }
+    },
+    "y": {
+      "aggregate": "count",
+      "type": "quantitative",
+      "title": "Number of species",
+      "axis": {
+        "format": "d",
+        "tickCount": 5
+      }
+    },
+    "tooltip": [
+      {
+        "field": "length_cm",
+        "type": "quantitative",
+        "bin": {
+          "step": 20,
+          "extent": [
+            0,
+            240
+          ]
+        },
+        "title": "Length range (cm)"
+      },
+      {
+        "aggregate": "count",
+        "type": "quantitative",
+        "title": "Species",
+        "format": ","
+      }
+    ]
+  },
+  "config": {
+    "background": null,
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelColor": "#253745",
+      "titleColor": "#253745",
+      "gridColor": "#E5EAF0",
+      "tickColor": "#B0BFC7",
+      "labelFont": "Open Sans",
+      "titleFont": "Open Sans",
+      "labelFontSize": 12,
+      "titleFontSize": 15,
+      "labelPadding": 7,
+      "titlePadding": 10
+    },
+    "legend": {
+      "labelColor": "#253745",
+      "titleColor": "#253745",
+      "labelFont": "Open Sans",
+      "titleFont": "Open Sans",
+      "labelFontSize": 13,
+      "titleFontSize": 14,
+      "labelLimit": 185,
+      "titleLimit": 200
+    },
+    "title": {
+      "font": "Open Sans",
+      "color": "#253745",
+      "fontSize": 17
+    },
+    "font": "Open Sans"
+  }
+}

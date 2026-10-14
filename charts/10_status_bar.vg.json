@@ -1,0 +1,114 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 350,
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
+  "data": {
+    "url": "data/status_2015.csv"
+  },
+  "mark": {
+    "type": "bar",
+    "cornerRadiusEnd": 4
+  },
+  "encoding": {
+    "y": {
+      "field": "status",
+      "type": "nominal",
+      "sort": [
+        "Least concern",
+        "Near threatened",
+        "Vulnerable",
+        "Endangered",
+        "Critically endangered",
+        "Extinct",
+        "Vagrant",
+        "Introduced"
+      ],
+      "title": null,
+      "axis": {
+        "labelLimit": 160
+      }
+    },
+    "x": {
+      "field": "count",
+      "type": "quantitative",
+      "title": "Species-level records"
+    },
+    "color": {
+      "field": "status",
+      "type": "nominal",
+      "scale": {
+        "domain": [
+          "Least concern",
+          "Near threatened",
+          "Vulnerable",
+          "Endangered",
+          "Critically endangered",
+          "Extinct",
+          "Vagrant",
+          "Introduced"
+        ],
+        "range": [
+          "#218A7A",
+          "#CDA64D",
+          "#DF8F48",
+          "#C96543",
+          "#A84654",
+          "#70354F",
+          "#8EA4AE",
+          "#658A91"
+        ]
+      },
+      "legend": null
+    },
+    "tooltip": [
+      {
+        "field": "status",
+        "type": "nominal",
+        "title": "Conservation category"
+      },
+      {
+        "field": "count",
+        "type": "quantitative",
+        "title": "Species"
+      }
+    ]
+  },
+  "config": {
+    "background": null,
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelColor": "#253745",
+      "titleColor": "#253745",
+      "gridColor": "#E5EAF0",
+      "tickColor": "#B0BFC7",
+      "labelFont": "Open Sans",
+      "titleFont": "Open Sans",
+      "labelFontSize": 13,
+      "titleFontSize": 15,
+      "labelPadding": 7,
+      "titlePadding": 10
+    },
+    "legend": {
+      "labelColor": "#253745",
+      "titleColor": "#253745",
+      "labelFont": "Open Sans",
+      "titleFont": "Open Sans",
+      "labelFontSize": 13,
+      "titleFontSize": 14,
+      "labelLimit": 185,
+      "titleLimit": 200
+    },
+    "title": {
+      "font": "Open Sans",
+      "color": "#253745",
+      "fontSize": 17
+    },
+    "font": "Open Sans"
+  }
+}

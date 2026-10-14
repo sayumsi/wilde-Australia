@@ -1,0 +1,746 @@
+bird,order,length_cm,mass_g
+Ostrich,Struthioniformes,225.0,114000.0
+Southern Cassowary,Struthioniformes,160.0,45100.0
+Emu,Struthioniformes,175.0,35500.0
+King Island Emu,Struthioniformes,137.0,23000.0
+Magpie Goose,Anseriformes,80.0,2420.0
+Spotted Whistling-Duck,Anseriformes,47.0,678.0
+Plumed Whistling-Duck,Anseriformes,50.0,733.0
+Wandering Whistling-Duck,Anseriformes,58.0,799.0
+Blue-billed Duck,Anseriformes,40.0,801.0
+Pink-eared Duck,Anseriformes,41.0,377.0
+Cape Barren Goose,Anseriformes,83.0,5360.0
+Black Swan,Anseriformes,125.0,5660.0
+Mute Swan,Anseriformes,145.0,9300.0
+Radjah Shelduck,Anseriformes,55.0,950.0
+Australian Shelduck,Anseriformes,64.0,1430.0
+Hardhead,Anseriformes,53.0,870.0
+Garganey,Anseriformes,39.0,280.0
+Australasian Shoveler,Anseriformes,50.0,646.0
+Pacific Black Duck,Anseriformes,54.0,1060.0
+Northern Mallard,Anseriformes,60.0,1230.0
+Grey Teal,Anseriformes,43.0,493.0
+Chestnut Teal,Anseriformes,43.0,638.0
+Freckled Duck,Anseriformes,54.0,912.0
+Musk Duck,Anseriformes,61.0,1670.0
+Australian Wood Duck,Anseriformes,48.0,808.0
+Cotton Pygmy-goose,Anseriformes,36.0,320.0
+Green Pygmy-goose,Anseriformes,33.0,307.0
+Australian Brush-turkey,Galliformes,65.0,2230.0
+Malleefowl,Galliformes,60.0,1920.0
+Orange-footed Scrubfowl,Galliformes,45.0,937.0
+Helmeted Guineafowl,Galliformes,63.0,1480.0
+California Quail,Galliformes,25.0,169.0
+Indian Peafowl,Galliformes,212.0,4000.0
+Stubble Quail,Galliformes,18.0,101.0
+Brown Quail,Galliformes,20.0,105.0
+King Quail,Galliformes,14.0,38.3
+Red Junglefowl,Galliformes,55.0,921.0
+Green Junglefowl,Galliformes,55.0,625.0
+Common Pheasant,Galliformes,83.0,1260.0
+Wild Turkey,Galliformes,108.0,5370.0
+Australasian Grebe,Podicepiformes,24.0,184.0
+Hoary-headed Grebe,Podicepiformes,30.0,241.0
+Great Crested Grebe,Podicepiformes,55.0,1030.0
+Rock Dove,Columbiformes,33.0,306.0
+White-throated Pigeon,Columbiformes,38.0,389.0
+White-headed Pigeon,Columbiformes,40.0,420.0
+Barbary Dove,Columbiformes,30.0,148.0
+Spotted Dove,Columbiformes,31.0,161.0
+Laughing Dove,Columbiformes,26.0,81.5
+Brown Cuckoo-Dove,Columbiformes,42.0,202.0
+Wonga Pigeon,Columbiformes,42.0,429.0
+Chestnut-quilled Rock-Pigeon,Columbiformes,30.0,160.0
+White-quilled Rock-Pigeon,Columbiformes,29.0,124.0
+Pilbara Spinifex Pigeon,Columbiformes,22.0,91.0
+White-bellied Spinifex Pigeon,Columbiformes,22.0,100.0
+Squatter Pigeon,Columbiformes,29.0,220.0
+Partridge Pigeon,Columbiformes,27.0,192.0
+Common Bronzewing,Columbiformes,32.0,331.0
+Brush Bronzewing,Columbiformes,29.0,203.0
+Flock Bronzewing,Columbiformes,30.0,289.0
+Crested Pigeon,Columbiformes,34.0,192.0
+Diamond Dove,Columbiformes,22.0,32.1
+Peaceful Dove,Columbiformes,22.0,45.4
+Bar-shouldered Dove,Columbiformes,29.0,123.0
+Brown-capped Emerald Dove,Columbiformes,25.0,136.0
+Grey-capped Emerald Dove,Columbiformes,25.0,130.0
+Christmas Island Imperial-Pigeon,Columbiformes,39.0,561.0
+Collared Imperial-Pigeon,Columbiformes,40.0,595.0
+Torresian Imperial-Pigeon,Columbiformes,41.0,464.0
+Banded Fruit-Dove,Columbiformes,41.0,510.0
+Wompoo Fruit-Dove,Columbiformes,40.0,336.0
+Superb Fruit-Dove,Columbiformes,23.0,113.0
+Rose-crowned Fruit-Dove,Columbiformes,23.0,93.0
+New Zealand Pigeon,Columbiformes,50.0,680.0
+Topknot Pigeon,Columbiformes,43.0,517.0
+Pheasant Coucal,Cuculiformes,59.0,386.0
+Eastern Koel,Cuculiformes,41.0,243.0
+Channel-billed Cuckoo,Cuculiformes,63.0,614.0
+Horsfield's Bronze-Cuckoo,Cuculiformes,16.0,23.2
+Black-eared Cuckoo,Cuculiformes,19.0,30.8
+Shining Bronze-Cuckoo,Cuculiformes,16.0,24.2
+Little Bronze-Cuckoo,Cuculiformes,16.0,17.7
+Chestnut-breasted Cuckoo,Cuculiformes,22.0,31.0
+Fan-tailed Cuckoo,Cuculiformes,26.0,49.9
+Brush Cuckoo,Cuculiformes,22.0,37.4
+Pallid Cuckoo,Cuculiformes,31.0,87.6
+Oriental Cuckoo,Cuculiformes,31.0,105.0
+Australian Bustard,Otidiformes,100.0,4890.0
+Marbled Frogmouth,Caprimulgiformes,38.0,174.0
+Papuan Frogmouth,Caprimulgiformes,55.0,403.0
+Tawny Frogmouth,Caprimulgiformes,43.0,277.0
+White-throated Nightjar,Caprimulgiformes,33.0,141.0
+Spotted Nightjar,Caprimulgiformes,31.0,93.9
+Large-tailed Nightjar,Caprimulgiformes,27.0,69.4
+Australian Owlet-nightjar,Caprimulgiformes,22.0,42.8
+White-throated Needletail,Caprimulgiformes,20.0,119.0
+Glossy Swiftlet,Caprimulgiformes,10.0,9.5
+Australian Swiftlet,Caprimulgiformes,11.0,10.7
+Fork-tailed Swift,Caprimulgiformes,20.0,43.5
+Red-necked Crake,Gruiformes,26.0,165.0
+Lewin's Rail,Gruiformes,24.0,87.8
+Chestnut Rail,Gruiformes,48.0,672.0
+Lord Howe Woodhen,Gruiformes,37.0,496.0
+Buff-banded Rail,Gruiformes,32.0,175.0
+Australian Spotted Crake,Gruiformes,21.0,64.8
+Baillon's Crake,Gruiformes,17.0,33.9
+Spotless Crake,Gruiformes,19.0,43.5
+Pale-vented Bush-hen,Gruiformes,28.0,183.0
+White-breasted Waterhen,Gruiformes,31.0,213.0
+White-browed Crake,Gruiformes,19.0,53.3
+Purple Swamphen,Gruiformes,46.0,793.0
+Dusky Moorhen,Gruiformes,38.0,432.0
+Black-tailed Native-hen,Gruiformes,34.0,387.0
+Tasmanian Native-hen,Gruiformes,47.0,1290.0
+Eurasian Coot,Gruiformes,37.0,651.0
+Sarus Crane,Gruiformes,145.0,7590.0
+Brolga,Gruiformes,106.0,6250.0
+Bush Stone-curlew,Charadriiformes,57.0,673.0
+Beach Stone-curlew,Charadriiformes,55.0,1020.0
+Black-faced Sheathbill,Charadriiformes,38.0,527.0
+Australian Pied Oystercatcher,Charadriiformes,46.0,691.0
+Sooty Oystercatcher,Charadriiformes,46.0,748.0
+Banded Stilt,Charadriiformes,39.0,317.0
+Red-necked Avocet,Charadriiformes,44.0,245.0
+Black-winged Stilt,Charadriiformes,35.0,178.0
+Grey Plover,Charadriiformes,29.0,252.0
+Pacific Golden Plover,Charadriiformes,25.0,138.0
+Little Ringed Plover,Charadriiformes,16.0,39.1
+Red-capped Plover,Charadriiformes,15.0,37.5
+Double-banded Plover,Charadriiformes,20.0,70.8
+Lesser Sand Plover,Charadriiformes,20.0,74.4
+Greater Sand Plover,Charadriiformes,24.0,77.7
+Oriental Plover,Charadriiformes,23.0,95.0
+Hooded Plover,Charadriiformes,21.0,98.5
+Black-fronted Dotterel,Charadriiformes,17.0,32.5
+Banded Lapwing,Charadriiformes,27.0,186.0
+Masked Lapwing,Charadriiformes,34.0,316.0
+Red-kneed Dotterel,Charadriiformes,18.0,50.4
+Inland Dotterel,Charadriiformes,21.0,79.2
+Plains-wanderer,Charadriiformes,17.0,63.2
+Australian Painted Snipe,Charadriiformes,27.0,127.0
+Comb-crested Jacana,Charadriiformes,24.0,114.0
+Whimbrel,Charadriiformes,43.0,411.0
+Little Curlew,Charadriiformes,30.0,172.0
+Eastern Curlew,Charadriiformes,63.0,785.0
+Bar-tailed Godwit,Charadriiformes,38.0,317.0
+Black-tailed Godwit,Charadriiformes,42.0,263.0
+Ruddy Turnstone,Charadriiformes,23.0,119.0
+Great Knot,Charadriiformes,27.0,156.0
+Red Knot,Charadriiformes,24.0,132.0
+Ruff,Charadriiformes,26.0,138.0
+Broad-billed Sandpiper,Charadriiformes,17.0,49.8
+Sharp-tailed Sandpiper,Charadriiformes,20.0,67.1
+Curlew Sandpiper,Charadriiformes,21.0,62.3
+Long-toed Stint,Charadriiformes,15.0,24.6
+Red-necked Stint,Charadriiformes,15.0,28.5
+Sanderling,Charadriiformes,22.0,57.8
+Pectoral Sandpiper,Charadriiformes,22.0,71.8
+Asian Dowitcher,Charadriiformes,35.0,177.0
+Latham's Snipe,Charadriiformes,31.0,162.0
+Pintail Snipe,Charadriiformes,26.0,129.0
+Swinhoe's Snipe,Charadriiformes,28.0,124.0
+Terek Sandpiper,Charadriiformes,23.0,77.2
+Common Sandpiper,Charadriiformes,20.0,41.7
+Grey-tailed Tattler,Charadriiformes,25.0,121.0
+Wandering Tattler,Charadriiformes,27.0,114.0
+Common Greenshank,Charadriiformes,33.0,176.0
+Common Redshank,Charadriiformes,28.0,109.0
+Wood Sandpiper,Charadriiformes,21.0,57.4
+Marsh Sandpiper,Charadriiformes,24.0,70.2
+Red-necked Phalarope,Charadriiformes,19.0,31.4
+Red-backed Button-quail,Charadriiformes,14.0,39.6
+Black-breasted Button-quail,Charadriiformes,18.0,82.9
+Painted Button-quail,Charadriiformes,20.0,80.9
+Chestnut-backed Button-quail,Charadriiformes,17.0,84.1
+Red-chested Button-quail,Charadriiformes,14.0,45.4
+Little Button-quail,Charadriiformes,14.0,45.0
+Australian Pratincole,Charadriiformes,27.0,63.7
+Oriental Pratincole,Charadriiformes,24.0,75.3
+Long-tailed Jaeger,Charadriiformes,37.0,293.0
+Arctic Jaeger,Charadriiformes,57.0,465.0
+Pomarine Jaeger,Charadriiformes,72.0,695.0
+Brown Skua,Charadriiformes,64.0,1760.0
+Common Noddy,Charadriiformes,43.0,185.0
+Lesser Noddy,Charadriiformes,32.0,108.0
+Black Noddy,Charadriiformes,38.0,111.0
+Grey Ternlet,Charadriiformes,28.0,56.0
+White Tern,Charadriiformes,31.0,112.0
+Silver Gull,Charadriiformes,40.0,287.0
+Pacific Gull,Charadriiformes,59.0,1120.0
+Kelp Gull,Charadriiformes,56.0,1420.0
+Sooty Tern,Charadriiformes,35.0,180.0
+Bridled Tern,Charadriiformes,31.0,136.0
+Little Tern,Charadriiformes,24.0,51.5
+Fairy Tern,Charadriiformes,25.0,67.8
+Common Gull-billed Tern,Charadriiformes,37.0,200.0
+Australian Gull-billed Tern,Charadriiformes,37.0,242.0
+Caspian Tern,Charadriiformes,51.0,752.0
+Whiskered Tern,Charadriiformes,24.0,85.6
+White-winged Black Tern,Charadriiformes,22.0,64.9
+Roseate Tern,Charadriiformes,35.0,106.0
+White-fronted Tern,Charadriiformes,39.0,141.0
+Black-naped Tern,Charadriiformes,31.0,102.0
+Common Tern,Charadriiformes,35.0,122.0
+Antarctic Tern,Charadriiformes,34.0,157.0
+Lesser Crested Tern,Charadriiformes,41.0,223.0
+Crested Tern,Charadriiformes,45.0,331.0
+Red-tailed Tropicbird,Phaetontiformes,100.0,800.0
+White-tailed Tropicbird,Phaetontiformes,80.0,299.0
+King Penguin,Sphenisciformes,90.0,28400.0
+Gentoo Penguin,Sphenisciformes,75.0,5950.0
+Macaroni Penguin,Sphenisciformes,71.0,4720.0
+Royal Penguin,Sphenisciformes,70.0,4250.0
+Southern Rockhopper Penguin,Sphenisciformes,51.0,2750.0
+Little Penguin,Sphenisciformes,43.0,1010.0
+Wilson's Storm-Petrel,Procellariformes,17.0,36.5
+Grey-backed Storm-Petrel,Procellariformes,18.0,34.7
+White-faced Storm-Petrel,Procellariformes,20.0,49.8
+White-bellied Storm-Petrel,Procellariformes,20.0,54.5
+Black-bellied Storm-Petrel,Procellariformes,20.0,53.8
+Wandering Albatross,Procellariformes,123.0,8940.0
+Northern Royal Albatross,Procellariformes,115.0,7670.0
+Southern Royal Albatross,Procellariformes,115.0,9000.0
+Light-mantled Sooty Albatross,Procellariformes,85.0,3030.0
+Sooty Albatross,Procellariformes,87.0,2530.0
+Indian Yellow-nosed Albatross,Procellariformes,75.0,2550.0
+Grey-headed Albatross,Procellariformes,78.0,3360.0
+Black-browed Albatross,Procellariformes,88.0,3570.0
+Campbell Albatross,Procellariformes,88.0,2900.0
+Buller's Albatross,Procellariformes,79.0,2810.0
+Shy Albatross,Procellariformes,95.0,4030.0
+Matsudaira's Storm-Petrel,Procellariformes,25.0,62.0
+Swinhoe's Storm-Petrel,Procellariformes,20.0,40.0
+Northern Giant-Petrel,Procellariformes,88.0,4220.0
+Southern Giant-Petrel,Procellariformes,93.0,4330.0
+Southern Fulmar,Procellariformes,48.0,852.0
+Cape Petrel,Procellariformes,39.0,435.0
+Blue Petrel,Procellariformes,29.0,195.0
+Broad-billed Prion,Procellariformes,28.0,195.0
+Salvin's Prion,Procellariformes,28.0,167.0
+Antarctic Prion,Procellariformes,27.0,153.0
+Slender-billed Prion,Procellariformes,26.0,145.0
+Fairy Prion,Procellariformes,25.0,126.0
+Fulmar Prion,Procellariformes,28.0,144.0
+Kerguelen Petrel,Procellariformes,35.0,331.0
+Gould's Petrel,Procellariformes,30.0,186.0
+Pycroft's Petrel,Procellariformes,28.0,158.0
+Black-winged Petrel,Procellariformes,29.0,160.0
+Providence Petrel,Procellariformes,40.0,471.0
+Kermadec Petrel,Procellariformes,38.0,509.0
+Herald Petrel,Procellariformes,37.0,393.0
+Mottled Petrel,Procellariformes,35.0,319.0
+White-necked Petrel,Procellariformes,43.0,444.0
+Soft-plumaged Petrel,Procellariformes,35.0,305.0
+White-headed Petrel,Procellariformes,43.0,657.0
+Grey Petrel,Procellariformes,50.0,1070.0
+White-chinned Petrel,Procellariformes,55.0,1320.0
+Westland Petrel,Procellariformes,53.0,1190.0
+Black Petrel,Procellariformes,46.0,709.0
+Wedge-tailed Shearwater,Procellariformes,42.0,426.0
+Buller's Shearwater,Procellariformes,47.0,432.0
+Short-tailed Shearwater,Procellariformes,43.0,585.0
+Sooty Shearwater,Procellariformes,43.0,748.0
+Flesh-footed Shearwater,Procellariformes,43.0,600.0
+Streaked Shearwater,Procellariformes,48.0,483.0
+Fluttering Shearwater,Procellariformes,35.0,272.0
+Hutton's Shearwater,Procellariformes,37.0,360.0
+Little Shearwater,Procellariformes,28.0,204.0
+Subantarctic Shearwater,Procellariformes,28.0,238.0
+Tahiti Petrel,Procellariformes,39.0,361.0
+Bulwer's Petrel,Procellariformes,27.0,101.0
+South Georgian Diving-Petrel,Procellariformes,23.0,120.0
+Common Diving-Petrel,Procellariformes,23.0,142.0
+Black-necked Stork,Pelecaniformes,124.0,3150.0
+Australian Pelican,Pelecaniformes,170.0,5400.0
+Australasian Bittern,Pelecaniformes,71.0,1110.0
+Australian Little Bittern,Pelecaniformes,31.0,84.0
+Black Bittern,Pelecaniformes,60.0,347.0
+Nankeen Night-Heron,Pelecaniformes,60.0,725.0
+Striated Heron,Pelecaniformes,43.0,193.0
+Cattle Egret,Pelecaniformes,63.0,380.0
+White-necked Heron,Pelecaniformes,91.0,881.0
+Great-billed Heron,Pelecaniformes,105.0,2020.0
+Great Egret,Pelecaniformes,93.0,930.0
+Intermediate Egret,Pelecaniformes,63.0,450.0
+Pied Heron,Pelecaniformes,49.0,259.0
+White-faced Heron,Pelecaniformes,67.0,571.0
+Little Egret,Pelecaniformes,60.0,482.0
+Eastern Reef Egret,Pelecaniformes,63.0,445.0
+Australian White Ibis,Pelecaniformes,70.0,1810.0
+Straw-necked Ibis,Pelecaniformes,65.0,1350.0
+Yellow-billed Spoonbill,Pelecaniformes,84.0,1870.0
+Royal Spoonbill,Pelecaniformes,78.0,1730.0
+Glossy Ibis,Pelecaniformes,60.0,604.0
+Lesser Frigatebird,Pelecaniformes,75.0,997.0
+Great Frigatebird,Pelecaniformes,95.0,1350.0
+Christmas Island Frigatebird,Pelecaniformes,95.0,1340.0
+Abbott's Booby,Pelecaniformes,79.0,1460.0
+Australasian Gannet,Pelecaniformes,88.0,2320.0
+Red-footed Booby,Pelecaniformes,75.0,975.0
+Brown Booby,Pelecaniformes,70.0,1080.0
+Masked Booby,Pelecaniformes,80.0,2040.0
+Little Pied Cormorant,Pelecaniformes,60.0,688.0
+Imperial Shag,Pelecaniformes,72.0,2580.0
+Great Cormorant,Pelecaniformes,83.0,2540.0
+Little Black Cormorant,Pelecaniformes,60.0,860.0
+Black-faced Cormorant,Pelecaniformes,65.0,1800.0
+Pied Cormorant,Pelecaniformes,75.0,1740.0
+Australasian Darter,Pelecaniformes,90.0,1540.0
+Osprey,Accipitriformes,58.0,1490.0
+Black-shouldered Kite,Accipitriformes,35.0,275.0
+Letter-winged Kite,Accipitriformes,35.0,316.0
+Black-breasted Buzzard,Accipitriformes,55.0,1380.0
+Square-tailed Kite,Accipitriformes,53.0,670.0
+Pacific Baza,Accipitriformes,40.0,327.0
+Wedge-tailed Eagle,Accipitriformes,95.0,3630.0
+Little Eagle,Accipitriformes,50.0,832.0
+Swamp Harrier,Accipitriformes,55.0,754.0
+Spotted Harrier,Accipitriformes,56.0,568.0
+Grey Goshawk,Accipitriformes,48.0,565.0
+Brown Goshawk,Accipitriformes,43.0,371.0
+Collared Sparrowhawk,Accipitriformes,35.0,180.0
+Red Goshawk,Accipitriformes,53.0,873.0
+White-bellied Sea-Eagle,Accipitriformes,80.0,2820.0
+Whistling Kite,Accipitriformes,55.0,769.0
+Brahminy Kite,Accipitriformes,48.0,548.0
+Black Kite,Accipitriformes,50.0,847.0
+Eastern Grass Owl,Strigiformes,34.0,406.0
+Greater Sooty Owl,Strigiformes,35.0,761.0
+Lesser Sooty Owl,Strigiformes,33.0,464.0
+Masked Owl,Strigiformes,42.0,604.0
+Barn Owl,Strigiformes,34.0,392.0
+Rufous Owl,Strigiformes,52.0,1090.0
+Powerful Owl,Strigiformes,55.0,1350.0
+Barking Owl,Strigiformes,42.0,650.0
+Southern Boobook,Strigiformes,33.0,248.0
+Tasmanian Boobook,Strigiformes,33.0,202.0
+New Zealand Boobook,Strigiformes,33.0,177.0
+Christmas Island Hawk-Owl,Strigiformes,28.0,158.0
+Rainbow Bee-eater,Coraciiformes,21.0,28.0
+Dollarbird,Coraciiformes,28.0,142.0
+Little Kingfisher,Coraciiformes,12.0,13.2
+Azure Kingfisher,Coraciiformes,18.0,35.2
+Yellow-billed Kingfisher,Coraciiformes,20.0,41.0
+Forest Kingfisher,Coraciiformes,20.0,38.4
+Collared Kingfisher,Coraciiformes,25.0,73.5
+Sacred Kingfisher,Coraciiformes,21.0,53.1
+Red-backed Kingfisher,Coraciiformes,23.0,51.7
+Buff-breasted Paradise-Kingfisher,Coraciiformes,23.0,50.0
+Laughing Kookaburra,Coraciiformes,44.0,312.0
+Blue-winged Kookaburra,Coraciiformes,39.0,303.0
+Nankeen Kestrel,Falconiformes,33.0,179.0
+Australian Hobby,Falconiformes,33.0,244.0
+Brown Falcon,Falconiformes,45.0,574.0
+Grey Falcon,Falconiformes,38.0,466.0
+Black Falcon,Falconiformes,50.0,738.0
+Peregrine Falcon,Falconiformes,43.0,1090.0
+Cockatiel,Psittaciformes,31.0,92.4
+Red-tailed Black-Cockatoo,Psittaciformes,58.0,682.0
+Glossy Black-Cockatoo,Psittaciformes,48.0,460.0
+Yellow-tailed Black-Cockatoo,Psittaciformes,60.0,661.0
+Baudin's Black-Cockatoo,Psittaciformes,55.0,661.0
+Carnaby's Black-Cockatoo,Psittaciformes,55.0,659.0
+Palm Cockatoo,Psittaciformes,56.0,818.0
+Gang-gang Cockatoo,Psittaciformes,35.0,257.0
+Galah,Psittaciformes,35.0,306.0
+Major Mitchell's Cockatoo,Psittaciformes,39.0,385.0
+Long-billed Corella,Psittaciformes,40.0,567.0
+Western Corella,Psittaciformes,43.0,604.0
+Little Corella,Psittaciformes,38.0,497.0
+Sulphur-crested Cockatoo,Psittaciformes,52.0,735.0
+Superb Parrot,Psittaciformes,40.0,154.0
+Regent Parrot,Psittaciformes,41.0,175.0
+Princess Parrot,Psittaciformes,43.0,104.0
+Australian King-Parrot,Psittaciformes,43.0,207.0
+Red-winged Parrot,Psittaciformes,32.0,141.0
+Eclectus Parrot,Psittaciformes,44.0,523.0
+Red-cheeked Parrot,Psittaciformes,24.0,148.0
+Red-rumped Parrot,Psittaciformes,27.0,63.0
+Blue Bonnet,Psittaciformes,31.0,81.8
+Mulga Parrot,Psittaciformes,30.0,61.2
+Hooded Parrot,Psittaciformes,27.0,48.2
+Golden-shouldered Parrot,Psittaciformes,26.0,45.7
+Red-capped Parrot,Psittaciformes,36.0,116.0
+Green Rosella,Psittaciformes,33.0,130.0
+Crimson Rosella,Psittaciformes,37.0,126.0
+Northern Rosella,Psittaciformes,31.0,92.2
+Pale-headed Rosella,Psittaciformes,31.0,103.0
+Eastern Rosella,Psittaciformes,31.0,104.0
+Western Rosella,Psittaciformes,28.0,62.6
+Australian Ringneck,Psittaciformes,36.0,151.0
+Swift Parrot,Psittaciformes,25.0,67.3
+Red-fronted Parakeet,Psittaciformes,25.0,75.0
+Ground Parrot,Psittaciformes,30.0,82.7
+Night Parrot,Psittaciformes,24.0,104.0
+Bourke's Parrot,Psittaciformes,22.0,44.5
+Blue-winged Parrot,Psittaciformes,23.0,46.8
+Elegant Parrot,Psittaciformes,24.0,47.1
+Rock Parrot,Psittaciformes,23.0,53.6
+Orange-bellied Parrot,Psittaciformes,24.0,55.0
+Turquoise Parrot,Psittaciformes,21.0,41.4
+Scarlet-chested Parrot,Psittaciformes,20.0,38.0
+Musk Lorikeet,Psittaciformes,22.0,70.8
+Little Lorikeet,Psittaciformes,17.0,39.5
+Purple-crowned Lorikeet,Psittaciformes,18.0,44.9
+Varied Lorikeet,Psittaciformes,20.0,54.4
+Coconut Lorikeet,Psittaciformes,30.0,129.0
+Rainbow Lorikeet,Psittaciformes,30.0,126.0
+Red-collared Lorikeet,Psittaciformes,30.0,124.0
+Scaly-breasted Lorikeet,Psittaciformes,24.0,86.9
+Budgerigar,Psittaciformes,18.0,28.8
+Double-eyed Fig-Parrot,Psittaciformes,14.0,37.8
+Red-bellied Pitta,Passeriformes,18.0,89.8
+Noisy Pitta,Passeriformes,22.0,90.5
+Rainbow Pitta,Passeriformes,17.0,62.0
+Albert's Lyrebird,Passeriformes,90.0,928.0
+Superb Lyrebird,Passeriformes,90.0,1080.0
+Noisy Scrub-bird,Passeriformes,21.0,42.8
+Spotted Catbird,Passeriformes,27.0,169.0
+Green Catbird,Passeriformes,32.0,208.0
+Tooth-billed Bowerbird,Passeriformes,30.0,164.0
+Golden Bowerbird,Passeriformes,24.0,78.7
+Regent Bowerbird,Passeriformes,28.0,106.0
+Satin Bowerbird,Passeriformes,32.0,202.0
+Spotted Bowerbird,Passeriformes,29.0,141.0
+Western Bowerbird,Passeriformes,27.0,135.0
+Great Bowerbird,Passeriformes,37.0,210.0
+Fawn-breasted Bowerbird,Passeriformes,29.0,157.0
+White-throated Treecreeper,Passeriformes,15.0,20.7
+Red-browed Treecreeper,Passeriformes,16.0,23.5
+White-browed Treecreeper,Passeriformes,15.0,20.8
+Rufous Treecreeper,Passeriformes,17.0,32.7
+Brown Treecreeper,Passeriformes,16.0,32.0
+Black-tailed Treecreeper,Passeriformes,18.0,32.1
+Purple-crowned Fairy-wren,Passeriformes,14.0,10.5
+Red-winged Fairy-wren,Passeriformes,15.0,9.6
+Blue-breasted Fairy-wren,Passeriformes,14.0,9.2
+Lovely Fairy-wren,Passeriformes,13.0,8.6
+Variegated Fairy-wren,Passeriformes,13.0,8.0
+Superb Fairy-wren,Passeriformes,13.0,10.6
+Splendid Fairy-wren,Passeriformes,12.0,9.2
+Red-backed Fairy-wren,Passeriformes,11.0,7.3
+White-winged Fairy-wren,Passeriformes,12.0,7.5
+Southern Emu-wren,Passeriformes,16.0,7.2
+Mallee Emu-wren,Passeriformes,14.0,5.5
+Rufous-crowned Emu-wren,Passeriformes,13.0,5.0
+Grey Grasswren,Passeriformes,20.0,18.4
+White-throated Grasswren,Passeriformes,21.0,35.1
+Carpentarian Grasswren,Passeriformes,17.0,23.3
+Striated Grasswren,Passeriformes,17.0,18.6
+Short-tailed Grasswren,Passeriformes,16.0,20.6
+Black Grasswren,Passeriformes,19.0,29.0
+Eyrean Grasswren,Passeriformes,16.0,16.7
+Kalkadoon Grasswren,Passeriformes,17.0,20.9
+Dusky Grasswren,Passeriformes,16.0,21.0
+Western Grasswren,Passeriformes,17.0,23.0
+Thick-billed Grasswren,Passeriformes,17.0,19.3
+Eastern Bristlebird,Passeriformes,20.0,44.4
+Western Bristlebird,Passeriformes,17.0,32.8
+Rufous Bristlebird,Passeriformes,25.0,76.8
+Black Honeyeater,Passeriformes,12.0,9.3
+Dusky Honeyeater,Passeriformes,14.0,12.2
+Red-headed Honeyeater,Passeriformes,12.0,7.8
+Scarlet Honeyeater,Passeriformes,10.0,8.3
+Painted Honeyeater,Passeriformes,15.0,20.7
+Striped Honeyeater,Passeriformes,22.0,39.7
+Macleay's Honeyeater,Passeriformes,20.0,31.2
+Tawny-breasted Honeyeater,Passeriformes,20.0,40.4
+Helmeted Friarbird,Passeriformes,34.0,111.0
+Silver-crowned Friarbird,Passeriformes,29.0,87.4
+Noisy Friarbird,Passeriformes,33.0,100.0
+Little Friarbird,Passeriformes,27.0,66.0
+Banded Honeyeater,Passeriformes,12.0,9.8
+Brown Honeyeater,Passeriformes,14.0,10.8
+White-streaked Honeyeater,Passeriformes,16.0,14.8
+Crescent Honeyeater,Passeriformes,16.0,15.0
+New Holland Honeyeater,Passeriformes,18.0,20.9
+White-cheeked Honeyeater,Passeriformes,18.0,18.3
+White-eared Honeyeater,Passeriformes,19.0,21.6
+Yellow-throated Honeyeater,Passeriformes,22.0,30.2
+Blue-faced Honeyeater,Passeriformes,30.0,103.0
+Black-chinned Honeyeater,Passeriformes,16.0,19.6
+Strong-billed Honeyeater,Passeriformes,15.0,25.1
+Brown-headed Honeyeater,Passeriformes,13.0,15.3
+White-throated Honeyeater,Passeriformes,13.0,11.9
+White-naped Honeyeater,Passeriformes,14.0,14.9
+Black-headed Honeyeater,Passeriformes,14.0,15.0
+Tawny-crowned Honeyeater,Passeriformes,16.0,18.5
+Green-backed Honeyeater,Passeriformes,12.0,10.7
+Eastern Spinebill,Passeriformes,15.0,10.5
+Western Spinebill,Passeriformes,14.0,9.9
+Pied Honeyeater,Passeriformes,17.0,26.4
+Rufous-banded Honeyeater,Passeriformes,13.0,11.7
+Rufous-throated Honeyeater,Passeriformes,13.0,11.2
+Grey Honeyeater,Passeriformes,11.0,9.9
+Brown-backed Honeyeater,Passeriformes,13.0,10.7
+Bar-breasted Honeyeater,Passeriformes,14.0,12.8
+Gibberbird,Passeriformes,13.0,17.5
+Crimson Chat,Passeriformes,12.0,10.7
+Orange Chat,Passeriformes,11.0,10.5
+Yellow Chat,Passeriformes,11.0,9.6
+White-fronted Chat,Passeriformes,12.0,13.3
+White-gaped Honeyeater,Passeriformes,21.0,31.3
+Yellow Honeyeater,Passeriformes,17.0,22.2
+Lewin's Honeyeater,Passeriformes,20.0,33.3
+Yellow-spotted Honeyeater,Passeriformes,19.0,25.9
+Graceful Honeyeater,Passeriformes,16.0,14.9
+White-lined Honeyeater,Passeriformes,19.0,24.6
+Spiny-cheeked Honeyeater,Passeriformes,24.0,44.7
+Western Wattlebird,Passeriformes,30.0,61.9
+Little Wattlebird,Passeriformes,31.0,69.7
+Regent Honeyeater,Passeriformes,23.0,40.6
+Red Wattlebird,Passeriformes,35.0,90.9
+Yellow Wattlebird,Passeriformes,43.0,156.0
+Bridled Honeyeater,Passeriformes,22.0,33.7
+Eungella Honeyeater,Passeriformes,19.0,23.0
+Singing Honeyeater,Passeriformes,19.0,24.3
+Varied Honeyeater,Passeriformes,22.0,34.2
+Mangrove Honeyeater,Passeriformes,20.0,28.2
+Grey-headed Honeyeater,Passeriformes,15.0,14.6
+Yellow-plumed Honeyeater,Passeriformes,16.0,17.2
+Grey-fronted Honeyeater,Passeriformes,16.0,16.6
+Fuscous Honeyeater,Passeriformes,16.0,16.2
+Yellow-tinted Honeyeater,Passeriformes,15.0,13.8
+White-plumed Honeyeater,Passeriformes,16.0,18.3
+White-fronted Honeyeater,Passeriformes,17.0,17.2
+Yellow-faced Honeyeater,Passeriformes,17.0,16.2
+Yellow-tufted Honeyeater,Passeriformes,19.0,26.8
+Purple-gaped Honeyeater,Passeriformes,18.0,19.8
+Bell Miner,Passeriformes,19.0,31.3
+Noisy Miner,Passeriformes,26.0,71.3
+Black-eared Miner,Passeriformes,25.0,51.7
+Yellow-throated Miner,Passeriformes,25.0,57.4
+Spotted Pardalote,Passeriformes,10.0,8.5
+Forty-spotted Pardalote,Passeriformes,10.0,10.7
+Red-browed Pardalote,Passeriformes,11.0,10.1
+Striated Pardalote,Passeriformes,11.0,11.1
+Fernwren,Passeriformes,13.0,18.3
+Brown Gerygone,Passeriformes,11.0,5.4
+Fairy Gerygone,Passeriformes,11.0,7.4
+Green-backed Gerygone,Passeriformes,10.0,6.3
+White-throated Gerygone,Passeriformes,11.0,6.5
+Large-billed Gerygone,Passeriformes,11.0,6.9
+Dusky Gerygone,Passeriformes,12.0,7.5
+Norfolk Island Gerygone,Passeriformes,11.0,7.6
+Mangrove Gerygone,Passeriformes,11.0,6.6
+Western Gerygone,Passeriformes,11.0,5.9
+Weebill,Passeriformes,9.0,5.7
+Pilotbird,Passeriformes,18.0,30.4
+Redthroat,Passeriformes,12.0,12.0
+Speckled Warbler,Passeriformes,12.0,13.3
+Chestnut-rumped Heathwren,Passeriformes,14.0,17.0
+Shy Heathwren,Passeriformes,13.0,14.7
+Striated Fieldwren,Passeriformes,14.0,19.1
+Rufous Fieldwren,Passeriformes,12.0,14.5
+Rockwarbler,Passeriformes,14.0,14.6
+Yellow-throated Scrubwren,Passeriformes,14.0,16.6
+Atherton Scrubwren,Passeriformes,13.0,11.7
+White-browed Scrubwren,Passeriformes,13.0,13.1
+Tasmanian Scrubwren,Passeriformes,14.0,17.8
+Large-billed Scrubwren,Passeriformes,12.0,9.7
+Tropical Scrubwren,Passeriformes,12.0,10.9
+Scrubtit,Passeriformes,12.0,9.9
+Southern Whiteface,Passeriformes,12.0,12.4
+Chestnut-breasted Whiteface,Passeriformes,10.0,9.0
+Banded Whiteface,Passeriformes,10.0,10.5
+Yellow-rumped Thornbill,Passeriformes,11.0,9.1
+Yellow Thornbill,Passeriformes,9.0,6.5
+Striated Thornbill,Passeriformes,10.0,7.3
+Inland Thornbill,Passeriformes,11.0,7.2
+Tasmanian Thornbill,Passeriformes,11.0,7.1
+Brown Thornbill,Passeriformes,10.0,9.0
+Mountain Thornbill,Passeriformes,11.0,12.4
+Slaty-backed Thornbill,Passeriformes,11.0,6.1
+Slender-billed Thornbill,Passeriformes,10.0,6.1
+Chestnut-rumped Thornbill,Passeriformes,10.0,6.4
+Buff-rumped Thornbill,Passeriformes,10.0,7.4
+Western Thornbill,Passeriformes,9.0,7.0
+Australian Logrunner,Passeriformes,19.0,58.8
+Chowchilla,Passeriformes,26.0,148.0
+Grey-crowned Babbler,Passeriformes,25.0,69.8
+Hall's Babbler,Passeriformes,20.0,40.8
+White-browed Babbler,Passeriformes,20.0,41.5
+Chestnut-crowned Babbler,Passeriformes,21.0,55.4
+Varied Sittella,Passeriformes,12.0,12.1
+Ground Cuckoo-shrike,Passeriformes,34.0,126.0
+Barred Cuckoo-shrike,Passeriformes,27.0,83.0
+Black-faced Cuckoo-shrike,Passeriformes,33.0,115.0
+White-bellied Cuckoo-shrike,Passeriformes,27.0,65.9
+Cicadabird,Passeriformes,25.0,65.0
+White-winged Triller,Passeriformes,18.0,25.5
+Varied Triller,Passeriformes,20.0,30.8
+Spotted Quail-thrush,Passeriformes,28.0,112.0
+Chestnut Quail-thrush,Passeriformes,24.0,74.5
+Chestnut-breasted Quail-thrush,Passeriformes,23.0,62.7
+Cinnamon Quail-thrush,Passeriformes,20.0,56.1
+Olive Whistler,Passeriformes,20.0,41.0
+Red-lored Whistler,Passeriformes,20.0,36.7
+Gilbert's Whistler,Passeriformes,19.0,30.8
+Grey Whistler,Passeriformes,15.0,19.8
+Rufous Whistler,Passeriformes,16.0,23.5
+White-breasted Whistler,Passeriformes,19.0,39.5
+Golden Whistler,Passeriformes,18.0,38.5
+Mangrove Golden Whistler,Passeriformes,16.0,22.4
+Little Shrike-thrush,Passeriformes,20.0,38.1
+Bower's Shrike-thrush,Passeriformes,20.0,44.1
+Grey Shrike-thrush,Passeriformes,25.0,67.5
+Sandstone Shrike-thrush,Passeriformes,26.0,53.4
+Crested Shrike-tit,Passeriformes,17.0,25.7
+Crested Bellbird,Passeriformes,21.0,63.4
+Eastern Whipbird,Passeriformes,27.0,58.7
+Western Whipbird,Passeriformes,24.0,46.0
+Chirruping Wedgebill,Passeriformes,20.0,40.8
+Chiming Wedgebill,Passeriformes,21.0,39.8
+Australasian Figbird,Passeriformes,28.0,123.0
+Olive-backed Oriole,Passeriformes,28.0,97.2
+Yellow Oriole,Passeriformes,29.0,94.5
+Yellow-breasted Boatbill,Passeriformes,12.0,10.5
+Black Currawong,Passeriformes,50.0,359.0
+Pied Currawong,Passeriformes,48.0,308.0
+Grey Currawong,Passeriformes,52.0,388.0
+Black Butcherbird,Passeriformes,38.0,177.0
+Australian Magpie,Passeriformes,41.0,280.0
+Pied Butcherbird,Passeriformes,31.0,123.0
+Grey Butcherbird,Passeriformes,29.0,90.8
+Black-backed Butcherbird,Passeriformes,26.0,88.2
+Masked Woodswallow,Passeriformes,19.0,34.7
+White-browed Woodswallow,Passeriformes,19.0,35.3
+Dusky Woodswallow,Passeriformes,18.0,34.5
+Black-faced Woodswallow,Passeriformes,18.0,35.3
+Little Woodswallow,Passeriformes,15.0,17.0
+White-breasted Woodswallow,Passeriformes,18.0,42.8
+Spangled Drongo,Passeriformes,30.0,79.5
+Northern Fantail,Passeriformes,17.0,14.5
+Willie Wagtail,Passeriformes,20.0,20.7
+Rufous Fantail,Passeriformes,16.0,9.7
+Mangrove Grey Fantail,Passeriformes,15.0,6.8
+Grey Fantail,Passeriformes,16.0,7.8
+Torresian Crow,Passeriformes,49.0,582.0
+Little Crow,Passeriformes,47.0,396.0
+Little Raven,Passeriformes,49.0,534.0
+Forest Raven,Passeriformes,52.0,675.0
+Australian Raven,Passeriformes,50.0,593.0
+Leaden Flycatcher,Passeriformes,15.0,13.5
+Broad-billed Flycatcher,Passeriformes,16.0,11.3
+Satin Flycatcher,Passeriformes,18.0,17.4
+Shining Flycatcher,Passeriformes,18.0,20.4
+Restless Flycatcher,Passeriformes,20.0,16.9
+Frilled Monarch,Passeriformes,15.0,12.7
+Pied Monarch,Passeriformes,15.0,13.2
+Magpie-lark,Passeriformes,28.0,88.0
+Spectacled Monarch,Passeriformes,16.0,13.1
+White-eared Monarch,Passeriformes,15.0,12.1
+Black-winged Monarch,Passeriformes,18.0,20.3
+Black-faced Monarch,Passeriformes,18.0,22.6
+White-winged Chough,Passeriformes,45.0,361.0
+Apostlebird,Passeriformes,31.0,136.0
+Trumpet Manucode,Passeriformes,33.0,159.0
+Paradise Riflebird,Passeriformes,29.0,121.0
+Victoria's Riflebird,Passeriformes,25.0,95.4
+Magnificent Riflebird,Passeriformes,30.0,152.0
+Rose Robin,Passeriformes,12.0,8.6
+Pink Robin,Passeriformes,13.0,9.7
+Flame Robin,Passeriformes,13.0,13.2
+Scarlet Robin,Passeriformes,13.0,13.2
+Red-capped Robin,Passeriformes,11.0,8.7
+Yellow-legged Flycatcher,Passeriformes,13.0,12.4
+Lemon-bellied Flycatcher,Passeriformes,13.0,12.3
+Jacky Winter,Passeriformes,13.0,14.5
+Northern Scrub-robin,Passeriformes,22.0,39.6
+Southern Scrub-robin,Passeriformes,21.0,33.5
+White-browed Robin,Passeriformes,15.0,17.9
+Buff-sided Robin,Passeriformes,15.0,19.9
+Grey-headed Robin,Passeriformes,19.0,33.1
+Eastern Yellow Robin,Passeriformes,16.0,19.4
+Western Yellow Robin,Passeriformes,15.0,19.7
+White-breasted Robin,Passeriformes,16.0,18.5
+White-faced Robin,Passeriformes,14.0,15.4
+Pale-yellow Robin,Passeriformes,13.0,13.7
+Hooded Robin,Passeriformes,16.0,19.3
+Dusky Robin,Passeriformes,15.0,27.2
+Mangrove Robin,Passeriformes,15.0,20.1
+Mistletoebird,Passeriformes,9.0,8.8
+Red-capped Flowerpecker,Passeriformes,9.0,6.1
+Olive-backed Sunbird,Passeriformes,12.0,8.7
+Nutmeg Mannikin,Passeriformes,12.0,14.0
+Yellow-rumped Mannikin,Passeriformes,12.0,12.2
+Chestnut-breasted Mannikin,Passeriformes,11.0,14.1
+Java Sparrow,Passeriformes,15.0,24.8
+Pictorella Mannikin,Passeriformes,12.0,15.2
+Beautiful Firetail,Passeriformes,11.0,13.8
+Red-eared Firetail,Passeriformes,12.0,13.5
+Diamond Firetail,Passeriformes,12.0,17.8
+Painted Finch,Passeriformes,11.0,11.7
+Red-browed Finch,Passeriformes,12.0,9.5
+Crimson Finch,Passeriformes,13.0,9.5
+Star Finch,Passeriformes,12.0,10.6
+Plum-headed Finch,Passeriformes,13.0,12.4
+Masked Finch,Passeriformes,13.0,12.5
+Long-tailed Finch,Passeriformes,16.0,14.5
+Black-throated Finch,Passeriformes,12.0,15.1
+Zebra Finch,Passeriformes,11.0,11.1
+Double-barred Finch,Passeriformes,11.0,8.9
+Blue-faced Parrot-Finch,Passeriformes,12.0,14.0
+Gouldian Finch,Passeriformes,13.0,14.4
+House Sparrow,Passeriformes,15.0,26.6
+Eurasian Tree Sparrow,Passeriformes,14.0,22.2
+Australasian Pipit,Passeriformes,16.0,25.7
+Yellow Wagtail,Passeriformes,17.0,16.7
+Grey Wagtail,Passeriformes,18.0,17.2
+Common Greenfinch,Passeriformes,16.0,25.4
+Common Redpoll,Passeriformes,12.0,13.0
+European Goldfinch,Passeriformes,12.0,17.6
+Horsfield's Bushlark,Passeriformes,14.0,21.8
+Eurasian Skylark,Passeriformes,18.0,40.0
+Zitting Cisticola,Passeriformes,11.0,8.0
+Golden-headed Cisticola,Passeriformes,10.0,7.8
+Brown Songlark,Passeriformes,23.0,53.2
+Rufous Songlark,Passeriformes,20.0,29.7
+Tawny Grassbird,Passeriformes,17.0,37.5
+Little Grassbird,Passeriformes,14.0,12.6
+Spinifexbird,Passeriformes,15.0,11.4
+Great Reed-Warbler,Passeriformes,18.0,24.8
+Australian Reed-Warbler,Passeriformes,16.0,18.9
+White-backed Swallow,Passeriformes,14.0,14.0
+Fairy Martin,Passeriformes,12.0,10.8
+Tree Martin,Passeriformes,12.0,16.6
+Red-rumped Swallow,Passeriformes,17.0,24.0
+Welcome Swallow,Passeriformes,16.0,14.6
+Barn Swallow,Passeriformes,17.0,20.0
+Red-whiskered Bulbul,Passeriformes,21.0,27.5
+Christmas Island White-eye,Passeriformes,13.0,10.0
+Ashy-bellied White-eye,Passeriformes,11.0,11.5
+Yellow White-eye,Passeriformes,11.0,8.5
+Silvereye,Passeriformes,12.0,11.7
+Slender-billed White-eye,Passeriformes,14.0,16.9
+Common Starling,Passeriformes,21.0,77.5
+Common Myna,Passeriformes,25.0,113.0
+Metallic Starling,Passeriformes,25.0,57.5
+Singing Starling,Passeriformes,21.0,56.7
+Bassian Thrush,Passeriformes,28.0,111.0
+Russet-tailed Thrush,Passeriformes,27.0,93.0
+Song Thrush,Passeriformes,22.0,78.5
+Common Blackbird,Passeriformes,25.0,105.0
+Island Thrush,Passeriformes,21.0,63.0

@@ -1,0 +1,13 @@
+family,count,x0,y0,x1,y1,xm,ym,label,fill
+Honeyeaters and Chats,73,0,0,37.84946,41.47727,18.92473,20.73864,Honeyeaters,#136D6C
+Petrels and Shearwaters,56,0,41.47727,37.84946,73.29545,18.92473,57.38636,Petrels,#3873AD
+"Snipe, Sandpipers, Godwits, Curlew, Stints and Phalaropes",47,0,73.29545,37.84946,100.0,18.92473,86.64773,Shorebirds,#905BA6
+"Parrots, Lorikeets and Rosellas",44,37.84946,0,69.64741,29.75779,53.74844,14.87889,Parrots,#C06B45
+Thornbills and Gerygones,42,69.64741,0,100.0,29.75779,84.82371,14.87889,Thornbills,#2F8158
+"Gulls, Terns and Noddies",38,37.84946,29.75779,68.92473,56.05536,53.3871,42.90657,Gulls & terns,#A14D75
+Pigeons and Doves,38,68.92473,29.75779,100.0,56.05536,84.46237,42.90657,Pigeons,#93751B
+"Ducks, Geese and Swans",31,37.84946,56.05536,65.25442,80.38186,51.55194,68.21861,Ducks & geese,#3B6580
+Weaver Finches,25,37.84946,80.38186,65.25442,100.0,51.55194,90.19093,Finches,#99575C
+"Herons, Egrets and Bitterns",25,65.25442,56.05536,83.35108,85.76441,74.30275,70.90989,Herons,#657A3C
+Albatrosses,23,83.35108,56.05536,100.0,85.76441,91.67554,70.90989,Albatrosses,#765A9B
+"Eagles, Kites, Goshawks and Osprey",23,65.25442,85.76441,100.0,100.0,82.62721,92.88221,Raptors,#B46C29

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="Wild Australia: an eight-chart critique draft about recorded birds in Australia." name="description"/>
+<meta content="v17 - larger takeaway text, approx 8-10 words per line" name="project-revision"/>
+<title>Wild Australia | Bird Records</title>
+<link href="style.css" rel="stylesheet"/>
+<script defer="" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+<script defer="" src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+<script defer="" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+<script defer="" src="js/charts.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="hero" id="top"><div class="wrap">
+<h1>Wild Australia</h1>
+<p class="hero-subtitle">The hidden stories in Australian bird records</p>
+</div></header>
+<main class="wrap" id="main">
+<section class="intro">
+<h2>What do Australian bird records reveal?</h2>
+<p>Explore where sightings were reported, how bird species differ,
+  and what historical conservation assessments reveal.</p>
+</section>
+<section class="chapter" id="observations">
+<div class="chapter-banner"><h2>Where were Australia's birds recorded?</h2>
+<p>Compare recorded bird variety and the most reported species.</p></div>
+<div class="pair-grid">
+<article class="story-card"><div class="story-copy">
+<h3>Queensland recorded the widest variety.</h3>
+</div><div class="chart-and-note"><div aria-label="Map of distinct species recorded in each state" class="chart chart-map" id="chart06"></div><aside aria-label="Chart interpretation" class="chart-note"><p class="chart-note-kicker">THE TAKEAWAY</p><h4>Recorded variety differs from reporting activity.</h4><p>Queensland recorded 359 distinct species in April 2025. New South Wales recorded 344, despite having more than twice as many observation records. This difference matters: submitted sightings reflect where people reported birds, not a complete survey of every species living in each state.</p></aside></div>
+</article>
+<article class="story-card"><div class="story-copy">
+<h3>Which birds were recorded most often?</h3>
+</div><div class="chart-and-note"><div aria-label="Lollipop chart of frequently recorded bird species" class="chart" id="chart09"></div><aside aria-label="Chart interpretation" class="chart-note"><p class="chart-note-kicker">THE TAKEAWAY</p><h4>Australian Magpies lead the records.</h4><p>The Australian Magpie appeared in 2,567 observation records, compared with 1,752 for the second-ranked species. That is a difference of 815 records. These counts describe reporting frequency in this dataset, so a higher position does not necessarily mean a larger wild population.</p></aside></div>
+</article>
+</div>
+</section>
+<section class="chapter" id="diversity">
+<div class="chapter-banner"><h2>How different are Australia's bird species?</h2>
+<p>Explore bird families and differences in body length.</p></div>
+<div class="pair-grid">
+<article class="story-card"><div class="story-copy">
+<h3>Some families contain many more species.</h3>
+</div><div class="chart-and-note"><div aria-label="Treemap of the twelve largest bird families" class="chart" id="chart01"></div><aside aria-label="Chart interpretation" class="chart-note"><p class="chart-note-kicker">THE TAKEAWAY</p><h4>Bird families differ considerably in size.</h4><p>Honeyeaters and Chats is the largest displayed family, with 73 species-level entries. The treemap compares only the twelve largest families in the 2015 reference. Each rectangle grows with the number of entries, while different colours help distinguish the families without implying an order.</p></aside></div>
+</article>
+<article class="story-card"><div class="story-copy">
+<h3>How are bird body lengths distributed?</h3>
+</div><div class="chart-and-note"><div aria-label="Histogram of bird body lengths" class="chart" id="chart02"></div><aside aria-label="Chart interpretation" class="chart-note"><p class="chart-note-kicker">THE TAKEAWAY</p><h4>Shorter body lengths are more common.</h4><p>Of 745 species with usable body-length measurements, 562 were 40 centimetres long or shorter. That is about three quarters of the measured species. A smaller number extend into much longer length ranges, creating a distribution with a long tail to the right.</p></aside></div>
+</article>
+</div>
+</section>
+<section class="chapter" id="patterns">
+<div class="chapter-banner"><h2>Where and when did people report birds?</h2>
+<p>Explore where and when people reported birds in April.</p></div>
+<div class="pair-grid">
+<article class="story-card"><div class="story-copy">
+<h3>Where did birdwatchers report more sightings?</h3>
+</div><div class="chart-and-note"><div aria-label="Grid map of reported observations in Australia" class="chart chart-map" id="chart05"></div><aside aria-label="Chart interpretation" class="chart-note"><p class="chart-note-kicker">THE TAKEAWAY</p><h4>Observations concentrate near settled coastal areas.</h4><p>The grid map shows more submitted records across parts of eastern and southern Australia than in many inland areas. Each coloured cell combines reports from one geographic grid location. Brighter or darker regions describe where observations were submitted, not where birds are necessarily most abundant.</p></aside></div>
+</article>
+<article class="story-card"><div class="story-copy">
+<h3>Which days attracted more bird reports?</h3>
+</div><div class="chart-and-note"><div aria-label="Calendar heatmap of daily observation counts in April 2025" class="chart" id="chart08"></div><aside aria-label="Chart interpretation" class="chart-note"><p class="chart-note-kicker">THE TAKEAWAY</p><h4>Reporting activity changes from day to day.</h4><p>On 9 April, observers submitted 3,808 records, compared with 1,891 on 24 April. The darker cells mark dates with more reports. Differences may reflect survey effort, participation or weather, so this calendar does not demonstrate that bird populations changed during the month.</p></aside></div>
+</article>
+</div>
+</section>
+<section class="chapter" id="conservation">
+<div class="chapter-banner"><h2>What do historical conservation records show?</h2>
+<p>Compare historical conservation categories and their recorded changes.</p></div>
+<div class="pair-grid">
+<article class="story-card"><div class="story-copy">
+<h3>Most entries were classified Least Concern.</h3>
+</div><div class="chart-and-note"><div aria-label="Horizontal bars of 2015 historical conservation classifications" class="chart" id="chart10"></div><aside aria-label="Chart interpretation" class="chart-note"><p class="chart-note-kicker">THE TAKEAWAY</p><h4>Least Concern is the largest classification.</h4><p>The 2015 reference lists 629 species-level entries under Least Concern. Smaller groups include 41 Near Threatened entries and 34 Vulnerable entries. This chart describes historical classification counts, not the number of birds or their present-day conservation status.</p></aside></div>
+</article>
+<article class="story-card"><div class="story-copy">
+<h3>How did selected categories change over time?</h3>
+</div><div class="chart-and-note"><div aria-label="Line chart of historical conservation category counts" class="chart" id="chart11"></div><aside aria-label="Chart interpretation" class="chart-note"><p class="chart-note-kicker">THE TAKEAWAY</p><h4>Some historical classification counts increased.</h4><p>Critically Endangered entries rose from 8 in 1990 to 13 in 2015. Endangered entries increased from 22 to 33 across those same assessment years. These changes describe how the reference classified species at different times; they do not directly measure changes in wild bird populations.</p></aside></div>
+</article>
+</div>
+</section>
+</main>
+</body></html>

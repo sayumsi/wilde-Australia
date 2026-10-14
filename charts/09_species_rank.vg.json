@@ -1,0 +1,197 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Lollipop chart of April 2025 observation counts. Linear axis with comma-formatted integer labels.",
+  "width": "container",
+  "height": 360,
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
+  "data": {
+    "url": "data/top_species.csv"
+  },
+  "encoding": {
+    "y": {
+      "field": "bird",
+      "type": "nominal",
+      "sort": [
+        "Australian Magpie",
+        "Rhipidura albiscapa",
+        "Willie Wagtail",
+        "Welcome Swallow",
+        "Magpie-lark",
+        "Superb Fairy-wren",
+        "Red Wattlebird",
+        "Rainbow Lorikeet",
+        "Eolophus roseicapilla",
+        "Noisy Miner",
+        "Grey Butcherbird",
+        "Australian Raven"
+      ],
+      "title": null,
+      "axis": {
+        "labelLimit": 175,
+        "labelFontSize": 12
+      }
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "rule",
+        "strokeWidth": 2.6,
+        "color": "#AABBC8"
+      },
+      "encoding": {
+        "x": {
+          "field": "baseline",
+          "type": "quantitative",
+          "scale": {
+            "zero": true,
+            "type": "linear",
+            "domain": [
+              0,
+              2600
+            ]
+          },
+          "axis": {
+            "format": ",.0f",
+            "tickCount": 5,
+            "labelFontSize": 12,
+            "labelExpr": "format(datum.value, ',.0f')",
+            "values": [
+              0,
+              500,
+              1000,
+              1500,
+              2000,
+              2500
+            ],
+            "labelAngle": 0,
+            "titleFontSize": 14
+          },
+          "title": "Number of observation records"
+        },
+        "x2": {
+          "field": "records"
+        },
+        "tooltip": [
+          {
+            "field": "bird",
+            "type": "nominal",
+            "title": "Bird"
+          },
+          {
+            "field": "species",
+            "type": "nominal",
+            "title": "Scientific name"
+          },
+          {
+            "field": "records",
+            "type": "quantitative",
+            "title": "Records",
+            "format": ","
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "size": 120,
+        "stroke": "#FFFFFF",
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "x": {
+          "field": "records",
+          "type": "quantitative",
+          "scale": {
+            "zero": true,
+            "type": "linear",
+            "domain": [
+              0,
+              2600
+            ]
+          },
+          "axis": {
+            "format": ",.0f",
+            "tickCount": 5,
+            "labelFontSize": 12,
+            "labelExpr": "format(datum.value, ',.0f')",
+            "values": [
+              0,
+              500,
+              1000,
+              1500,
+              2000,
+              2500
+            ],
+            "labelAngle": 0,
+            "titleFontSize": 14
+          },
+          "title": "Number of observation records"
+        },
+        "color": {
+          "condition": {
+            "test": "datum.bird === 'Australian Magpie'",
+            "value": "#C57A54"
+          },
+          "value": "#397DA0"
+        },
+        "tooltip": [
+          {
+            "field": "bird",
+            "type": "nominal",
+            "title": "Bird"
+          },
+          {
+            "field": "species",
+            "type": "nominal",
+            "title": "Scientific name"
+          },
+          {
+            "field": "records",
+            "type": "quantitative",
+            "title": "Records",
+            "format": ","
+          }
+        ]
+      }
+    }
+  ],
+  "config": {
+    "background": null,
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelColor": "#253745",
+      "titleColor": "#253745",
+      "gridColor": "#E5EAF0",
+      "tickColor": "#B0BFC7",
+      "labelFont": "Open Sans",
+      "titleFont": "Open Sans",
+      "labelFontSize": 12,
+      "titleFontSize": 13,
+      "labelPadding": 7,
+      "titlePadding": 10
+    },
+    "legend": {
+      "labelFont": "Open Sans",
+      "titleFont": "Open Sans"
+    },
+    "title": {
+      "font": "Open Sans",
+      "color": "#253745",
+      "fontSize": 17
+    },
+    "font": "Open Sans"
+  },
+  "resolve": {
+    "scale": {
+      "x": "shared"
+    }
+  }
+}
